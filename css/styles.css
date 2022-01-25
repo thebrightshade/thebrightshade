@@ -1,0 +1,182 @@
+body { 
+    background-color: #0e2c46;
+    font-family: 'Merriweather', sans-serif;
+    margin: Auto;
+    text-align: center;
+}
+
+h1 {
+    color: #B1D0E0;
+    line-height:2;
+    margin-top: 0;
+    font-family: 'MonteCarlo', sans-serif;
+    font-size: 5rem;
+}
+
+h2 {
+    color: #B1D0E0;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-top: 0;
+    /* font-size: 1.5rem; */
+    color: #1A374D;
+}
+
+p {
+    line-height: 2;
+}
+
+/* Class Styles */
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+.no_bottom { margin-bottom: 0; }
+.bottom-container {
+    background-color: #6998AB;
+    padding: 20px 0;
+    /* padding: 1%; */
+    /* padding-bottom: 0; */
+    }
+.middle-container {
+    background-color: #406882;
+    padding: 50px 0;
+    /* padding: 100px 0; */
+    /* padding-bottom: 0; */
+    }
+.top-container {
+    background-color: #0e2c46;
+    color: #B1D0E0;
+    /* width: 50%; */
+    margin: auto;
+    
+    /* padding: 1%; */
+    /* padding-bottom: 0; */
+    }
+.top-cloud {
+    position: absolute;
+    right: 25%;
+    }
+
+.penguin {
+    position: relative;
+    height: auto;
+    width: 30%;
+    opacity: 0.5;
+    }
+
+.profile_pic {
+    /* position: absolute; */
+    /* left: 50px; */
+    width: 25%;
+    /* float: left; */
+    /* margin-right: 30px; */
+    }
+
+.python_img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    }
+
+.web_dev_img {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    }
+
+.profile {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    }
+
+.skill_row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    }
+
+.sub_header {
+    position: absolute;
+    padding-left: 38%;
+    }
+
+.contact_me {
+    width: 50%;  
+    margin: auto; 
+    }
+
+.header {
+    font-family: 'MonteCarlo', 'Great Vibes', sans-serif;
+    margin-bottom: 0;
+    }
+
+.footer_link {
+    color: #1A374D;
+    font-family: 'Merriweather', sans-serif;
+    margin: 10px 20px;
+    }
+
+.footer_link:hover {
+    color: #406882;
+    }
+    
+
+    .btn {
+        background: #1A374D;
+        background-image: -webkit-linear-gradient(top, #1A374D, #1A374D);
+        background-image: -moz-linear-gradient(top, #1A374D, #1A374D);
+        background-image: -ms-linear-gradient(top, #1A374D, #1A374D);
+        background-image: -o-linear-gradient(top, #1A374D, #1A374D);
+        background-image: linear-gradient(to bottom, #1A374D, #1A374D);
+        -webkit-border-radius: 7;
+        -moz-border-radius: 7;
+        border-radius: 7px;
+        font-family: 'Merriweather', sans-serif;
+        color: #B1D0E0;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #B1D0E0;
+        color: #1A374D;
+        text-decoration: none;
+      }
+
+    
+    /* Practice classes */
+.main-content {
+    background-color: #196380;
+    width: 300px;
+    height: 300px;
+    }
+.red { 
+    background-color: red; 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    }
+.blue { 
+    background-color: blue; 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    }
+.yellow { 
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    }
